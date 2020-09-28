@@ -1,0 +1,59 @@
+html {
+   font-size: 10px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+   font-family: 'Alata', sans-serif;
+   color: #65bce8;
+    /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+   background-image: url("../images/texting-1490691_960_720.jpg");
+ }
+ h1 {
+   font-size: 60px;
+   text-align: center;
+ }
+ 
+ p, li {
+   font-size: 60px;
+   line-height: 2;
+   letter-spacing: 1px;
+ }
+ .texto {
+   font-size: 40px;
+   text-align: center;
+ }
+ 
+.button {
+    float: left;
+    width:80px;
+    height:80px;
+    margin: 50px;
+    padding:100px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    border-radius: 500px;
+    background: linear-gradient(180deg, #65bce8 0%, #094b74 100%);
+    background-size: 500px 700px;
+    transition: all .3s;
+  
+    font-size: 30px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+   font-family: 'Alata', sans-serif;
+    color: white;
+    border: 1px solid  #6173da;
+ }
+
+
+.simple_button{
+   display:block;
+   margin-left: 140px;
+   margin-right: auto;
+}
+
+ .button:hover {
+   background-position: 0 -300px;
+   transition: all .3s;
+ }
+
+ .input{
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    ;
+ }
