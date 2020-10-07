@@ -1,3 +1,5 @@
+
+
 var url = window.location.href;
 var sw = url.substring(url.indexOf("=")+1) * 5;
 
@@ -17,8 +19,9 @@ monedero.watch( ( err, value ) => {
      insertado=insertado+5;
      document.getElementById("insertado").innerHTML= "Insertado: $"+insertado
      if(insertado==sw){
-        window.location.href="timeout.html?insertado="+insertado, '_blank';
+        window.location.href="timeout"/*+insertado, '_blank'*/;
     }
  }
 
 
+ 

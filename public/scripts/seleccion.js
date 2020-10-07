@@ -1,3 +1,4 @@
+
 var marcada = 0;
 var precio=0;
 function asignarNota(valor) {
@@ -16,7 +17,9 @@ function marcarNota(id) {
      } else {
          mensaje = "Has clickado Cancelar";
      }*/
+
      window.location.href="contador.html?precio="+id, '_blank';
+
    }
 }
 

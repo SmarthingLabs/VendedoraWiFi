@@ -3,7 +3,7 @@ html {
    font-family: 'Alata', sans-serif;
    color: #65bce8;
     /* Este debe ser el resto del resultado que obtuviste de Google fonts */
-   background-image: url("../images/texting-1490691_960_720.jpg");
+   background-image: url("/images/texting-1490691_960_720.jpg");
  }
  h1 {
    font-size: 60px;
